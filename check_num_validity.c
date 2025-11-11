@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Example program to check if a number is between 1 and 10
 int main() {
     int number;
 
