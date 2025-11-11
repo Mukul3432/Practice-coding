@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Example program to print a pyramid pattern in C
 int main() {
     int rows = 10; // Number of rows for the pyramid
     char row[rows+1];
