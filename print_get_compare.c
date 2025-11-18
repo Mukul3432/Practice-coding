@@ -7,10 +7,9 @@ int main() {
     printf("--- Comparing printf and gets ---\n\n");
 
     // Using printf to display a string
-    printf("Enter a string for printf (max 99 chars): ");
-    // In a real scenario, you'd use scanf or fgets to read input for printf to display.
-    // For this comparison, we'll just demonstrate printf's output capability.
-    sprintf(buffer_printf, "Hello from printf!");
+    printf("Enter a string for scanf (max 99 chars): ");
+    // Using scanf to read a string
+    scanf("%s", buffer_printf);
     printf("printf output: %s\n\n", buffer_printf);
 
     // Using gets to read a string
