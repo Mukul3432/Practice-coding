@@ -6,7 +6,7 @@ int main() {
 
     printf("--- Comparing printf and gets ---\n\n");
 
-    // Using printf to display a string
+    // Using printf to display a strin
     printf("Enter a string for scanf (max 99 chars): ");
     // Using scanf to read a string
     scanf("%s", buffer_printf);
