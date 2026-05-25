@@ -14,4 +14,6 @@ int main()
         cout << word << " ";
     }
     cout << endl;
+    cout << "\033[2J\033[1;1H";
+    return 0;
 }
